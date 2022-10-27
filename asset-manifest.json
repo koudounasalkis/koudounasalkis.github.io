@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.e27d69b6.css",
-    "main.js": "/static/js/main.8599ce75.js",
+    "main.css": "/static/css/main.df7a294d.css",
+    "main.js": "/static/js/main.77f03836.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/CV_new.pdf": "/static/media/CV_new.798819fe340f5a7bdb54.pdf",
+    "static/media/CV_new.pdf": "/static/media/CV_new.c10c9bc729ea0f77ea05.pdf",
     "static/media/ρBerTO.png": "/static/media/ρBerTO.0e480a8037a5c77d38f4.png",
+    "static/media/about1.png": "/static/media/about1.7ceb9490108fa84e2850.png",
     "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/diabetic.png": "/static/media/diabetic.239e6813c34a313bb9dd.png",
-    "static/media/logo1.png": "/static/media/logo1.79199eea24183fa31498.png",
+    "static/media/logo.png": "/static/media/logo.e9272a7a665ac58f3b9d.png",
     "static/media/Mosquitoes.jpeg": "/static/media/Mosquitoes.d6d7b5b524de47cdd3b7.jpeg",
     "static/media/calm.png": "/static/media/calm.ec29f0fd743e09a3bc51.png",
+    "static/media/profile.png": "/static/media/profile.dde2b9ed2a4fb2c39ecf.png",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
-    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/vocalisation.jpeg": "/static/media/vocalisation.412d3b364d1591d6312e.jpeg",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.e27d69b6.css.map": "/static/css/main.e27d69b6.css.map",
-    "main.8599ce75.js.map": "/static/js/main.8599ce75.js.map",
+    "main.df7a294d.css.map": "/static/css/main.df7a294d.css.map",
+    "main.77f03836.js.map": "/static/js/main.77f03836.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e27d69b6.css",
-    "static/js/main.8599ce75.js"
+    "static/css/main.df7a294d.css",
+    "static/js/main.77f03836.js"
   ]
 }
