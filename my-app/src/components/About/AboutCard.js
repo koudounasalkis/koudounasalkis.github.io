@@ -9,9 +9,9 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Alkis Koudounas </span>
-            from <span className="purple"> Italy.</span>
-            <br />I am a Ph.D. student at Politecnico di Torino, 
-            <br /> working on a joint project with Amazon Alexa AI.
+            from Italy. 
+            <br />I am a Ph.D. student at <span className="purple"> Politecnico di Torino, </span> 
+            <br /> working on a joint project with <span className="purple">  Amazon Alexa AI. </span> 
             <br />
             <br />
             Apart from <span className="purple"> (trying to) </span>coding, I also love to 
