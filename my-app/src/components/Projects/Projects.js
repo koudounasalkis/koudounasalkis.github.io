@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import calm from "../../Assets/Projects/calm.png";
 import diabetic from "../../Assets/Projects/diabetic.png";
-import emotionrecognition from "../../Assets/Projects/vocalisation.jpeg";
+import emotionrecognition from "../../Assets/Projects/vocalisation.png";
 import ρBerTO from "../../Assets/Projects/ρBerTO.png";
 import tof from "../../Assets/Projects/tof.png";
-import mosquitoes from "../../Assets/Projects/Mosquitoes.jpeg";
+import mosquitoes from "../../Assets/Projects/mosquitoes.png";
 
 function Projects() {
   return (
@@ -38,7 +38,7 @@ function Projects() {
               isBlog={false}
               title="How Much Attention Should We Pay to Mosquitoes?"
               description="Mosquitoes are a major global health problem, thus monitoring is helpful in preventing the outbreak of many diseases. In this paper, we propose a novel data-driven approach 
-              that leverages Transformer-based models for the identification of mosquitoes in audio recordings."
+              that leverages Transformer-based models to identify mosquitoes in audio recordings."
               ghLink="https://github.com/koudounasalkis/How-Much-Attention-Should-We-Pay-to-Mosquitoes"
               // paper="https://dl.acm.org/doi/abs/10.1145/3503161.3551594"
             />
@@ -49,8 +49,8 @@ function Projects() {
               imgPath={emotionrecognition}
               isBlog={false}
               title="Transformer-Based Non-Verbal Emotion Recognition"
-              description="Recognizing emotions in non-verbal audio tracks requires a deep understanding of their underlying features. In this paper, we explore the use of a Transformer architecture trained on contrastive audio examples. 
-              We leverage augmented data to learn robust non-verbal emotion classifiers."
+              description="Recognizing emotions in non-verbal audio requires a deep understanding of their underlying features. In this paper, we use a Transformer architecture trained on contrastive audio examples,
+              leveraging augmented data to learn robust non-verbal emotion classifiers."
               ghLink="https://github.com/koudounasalkis/Transformer-based-Non-Verbal-Emotion-Recognition"
               // demoLink="https://editor.soumya-jit.tech/"              
             />
@@ -84,8 +84,9 @@ function Projects() {
             <ProjectCard
               imgPath={diabetic}
               isBlog={false}
-              title="Diabetic Retinopathy Scoring using GANs"
-              description="Project focused on training a Generative Adversarial Network (GAN) to perform semi-supervised scoring of Diabetic Retinopathy from images, strarting from the Kaggle's Diabetic Retinopathy Detection Dataset."
+              title="Diabetic Retinopathy Scoring"
+              description="Master Degree project focused on training a Generative Adversarial Network (GAN) to perform semi-supervised scoring (in a scale from 0 - no DR - to 4 - Proliferative DR -) of Diabetic Retinopathy
+              from high-resolution images taken under a variety of conditions, collected in the Diabetic Retinopathy Detection Dataset."
               ghLink="https://github.com/koudounasalkis/Diabetic-Retinopathy-Scoring-Using-GANs"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
