@@ -6,7 +6,7 @@ import calm from "../../Assets/Projects/calm.png";
 import diabetic from "../../Assets/Projects/diabetic.png";
 import emotionrecognition from "../../Assets/Projects/vocalisation.jpeg";
 import ρBerTO from "../../Assets/Projects/ρBerTO.png";
-import tof from "../../Assets/Projects/suicide.png";
+import tof from "../../Assets/Projects/tof.png";
 import mosquitoes from "../../Assets/Projects/Mosquitoes.jpeg";
 
 function Projects() {
@@ -61,7 +61,8 @@ function Projects() {
               imgPath={calm}
               isBlog={false}
               title="CALM"
-              description="Project for the 1st Sound of AI Hackathon. The idea behind our work is to align songs with their natural language description such that we can use text, voice or facial expression to search music."
+              description="Project for the 1st Sound of AI Hackathon. The idea is to align songs with their natural language description such that we can use text, voice or facial expression to search music.
+              CALM will have a direct impact on people using streaming service, who can search using multiple modalities, and new releases that may be immediately included in search."
               ghLink="https://github.com/MorenoLaQuatra/CALM"
               // demoLink="https://plant49-ai.herokuapp.com/"
             />
