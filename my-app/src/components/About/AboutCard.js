@@ -14,7 +14,7 @@ function AboutCard() {
             <br /> working on a joint project with <span className="purple">  Amazon Alexa AI. </span> 
             <br />
             <br />
-            Apart from <span className="purple"> (trying to) </span>coding, I also love to 
+            Apart from <span className="purple"> (trying to) </span>coding, I also love 
           </p>
           <ul>
             <li className="about-activity">
