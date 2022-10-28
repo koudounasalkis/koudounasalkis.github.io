@@ -1,6 +1,10 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImMusic, MdTravelExplore, GiChessKing, MdSportsMma, } from "react-icons/im";
+import { ImMusic } from "react-icons/im";
+import { MdTravelExplore, MdSportsMma } from "react-icons/md";
+import { GiChessKing } from "react-icons/gi";
+
+
 
 function AboutCard() {
   return (
