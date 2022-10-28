@@ -40,7 +40,6 @@ function Projects() {
               description="Mosquitoes are a major global health problem, thus monitoring is helpful in preventing the outbreak of many diseases. In this paper, we propose a novel data-driven approach 
               that leverages Transformer-based models to identify mosquitoes in audio recordings."
               ghLink="https://github.com/koudounasalkis/How-Much-Attention-Should-We-Pay-to-Mosquitoes"
-              // paper="https://dl.acm.org/doi/abs/10.1145/3503161.3551594"
             />
           </Col>
 
@@ -52,7 +51,6 @@ function Projects() {
               description="Recognizing emotions in non-verbal audio requires a deep understanding of their underlying features. In this paper, we use a Transformer architecture trained on contrastive audio examples,
               leveraging augmented data to learn robust non-verbal emotion classifiers."
               ghLink="https://github.com/koudounasalkis/Transformer-based-Non-Verbal-Emotion-Recognition"
-              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
@@ -64,7 +62,6 @@ function Projects() {
               description="Project for the 1st Sound of AI Hackathon. The idea is to align songs with their natural language description such that we can use text, voice or facial expression to search music.
               CALM will have a direct impact on people using streaming service, who can search using multiple modalities, and new releases that may be immediately included in search."
               ghLink="https://github.com/MorenoLaQuatra/CALM"
-              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
@@ -76,7 +73,6 @@ function Projects() {
               description="Research focused on the development of a NN-based approach for Object Detection and 6 DoF Pose Estimation with ToF Cameras for space applications. 
               The aim is that of designing a NN-based approach able to detect a part of a satellite (such as a gripping interface) and estimate its 6 DoF pose to support on-orbit servicing missions."
               ghLink="https://github.com/koudounasalkis/Time-of-Flight-Cameras-in-Space"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
@@ -88,7 +84,6 @@ function Projects() {
               description="Master Degree project focused on training a Generative Adversarial Network (GAN) to perform semi-supervised scoring (in a scale from 0 - no DR - to 4 - Proliferative DR -) of Diabetic Retinopathy
               from high-resolution images taken under a variety of conditions, collected in the Diabetic Retinopathy Detection Dataset."
               ghLink="https://github.com/koudounasalkis/Diabetic-Retinopathy-Scoring-Using-GANs"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>
