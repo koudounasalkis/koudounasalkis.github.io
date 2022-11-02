@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.df7a294d.css",
-    "main.js": "/static/js/main.a1cd2c27.js",
+    "main.js": "/static/js/main.48114165.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/home-main.png": "/static/media/home-main.b5ecaa464f61df02f6d4.png",
+    "static/media/datascience_and_database_technology.png": "/static/media/datascience_and_database_technology.82aeac0fc927c0588e4e.png",
+    "static/media/datascience_lab.png": "/static/media/datascience_lab.e0fcc562ecef5ace968a.png",
     "static/media/diabetic.png": "/static/media/diabetic.4d1cbfd05e7397f1501c.png",
     "static/media/CV_new.pdf": "/static/media/CV_new.ce6aba72593a46fdb9f0.pdf",
     "static/media/tof.png": "/static/media/tof.a36c10f88b2456ba2f84.png",
@@ -18,11 +20,11 @@
     "index.html": "/index.html",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.df7a294d.css.map": "/static/css/main.df7a294d.css.map",
-    "main.a1cd2c27.js.map": "/static/js/main.a1cd2c27.js.map",
+    "main.48114165.js.map": "/static/js/main.48114165.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df7a294d.css",
-    "static/js/main.a1cd2c27.js"
+    "static/js/main.48114165.js"
   ]
 }
