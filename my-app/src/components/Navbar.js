@@ -5,7 +5,6 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 
-import { ImBlog } from "react-icons/im";
 import { FaUniversity } from "react-icons/fa";
 import { CgFileDocument } from "react-icons/cg";
 import {
@@ -13,6 +12,8 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+
+import { SiGooglescholar } from "react-icons/si"
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -37,7 +38,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src={logo} className="img-fluid logo" alt="alkis koudounas logo" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -109,7 +110,7 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Scholar
+                <SiGooglescholar style={{ marginBottom: "2px" }} /> Scholar
               </Nav.Link>
             </Nav.Item>
 

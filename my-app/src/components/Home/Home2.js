@@ -62,13 +62,12 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="alkis koudounas homepage avatar" />
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            {/* <h3>FIND ME ON</h3> */}
             <p>
               Feel free to <span className="purple">connect </span>with me!
             </p>

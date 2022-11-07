@@ -38,7 +38,7 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Ad Astra per Aspera"{" "}
           </p>
-          {/* <footer className="blockquote-footer">Soumyajit</footer> */}
+          {/* <footer className="blockquote-footer">Alkis Koudounas</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

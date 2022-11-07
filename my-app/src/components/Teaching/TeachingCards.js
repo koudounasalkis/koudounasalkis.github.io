@@ -6,7 +6,7 @@ import { CgWebsite } from "react-icons/cg";
 function TeachingCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img variant="top" src={props.imgPath} alt="alkis koudounas teaching" />
       <Card.Body>
         <h3 className="font-weight-bold purple">{props.title}</h3>
         <h4>{props.degree}</h4>
