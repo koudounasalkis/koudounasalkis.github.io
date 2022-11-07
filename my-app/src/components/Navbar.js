@@ -5,14 +5,9 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 
-import { FaUniversity } from "react-icons/fa";
-import { CgFileDocument } from "react-icons/cg";
-import {
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-} from "react-icons/ai";
-
+import { FaUniversity, FaUser, FaPoll } from "react-icons/fa";
+import { RiPagesFill } from "react-icons/ri";
+import { ImHome } from "react-icons/im"
 import { SiGooglescholar } from "react-icons/si"
 
 function NavBar() {
@@ -54,7 +49,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <ImHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
@@ -64,7 +59,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <FaUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 
@@ -74,7 +69,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <FaPoll
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
@@ -100,7 +95,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <RiPagesFill style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
             
