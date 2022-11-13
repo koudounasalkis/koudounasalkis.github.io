@@ -23,9 +23,10 @@ function Home2() {
 
               I am a 
               <i>
-                <b className="purple"> half Greek-half Italian Ph.D. student, </b>
+                <b className="purple"> half Greek-half Italian </b>
+                <a href="https://www.dauin.polito.it/it/personale/scheda/(nominativo)/alkis.koudounas">Ph.D. student</a> 
               </i>
-              deeply astonished by the mystic 
+              , deeply astonished by the mystic 
               <i>
                 <b className="purple"> AI kingdom </b>
               </i>
@@ -115,7 +116,9 @@ function Home2() {
             </ul>
           </Col>
         </Row>
+
       </Container>
+
     </Container>
   );
 }
