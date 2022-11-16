@@ -12,7 +12,7 @@ function Teaching() {
 
       <Helmet>
         <title>Alkis Koudounas | The courses I teach </title>
-        <meta name="description" content="This page contains the courses I teach @ Politecnico di Torino, including Data Science and Database Technology, and Data Science Lab." />
+        <meta name="description" content="This page contains the courses I teach @ Politecnico di Torino: Data Science and Database Technology, and Data Science Lab." />
         <meta name="keywords" content="Alkis Koudounas,PhD,Politecnico,Torino,Teaching,Courses,Data Science,Database,Lab" />
         <meta name="robots" content="index, follow" />
       </Helmet>
