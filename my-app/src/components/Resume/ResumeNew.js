@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/CV_new.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
+import { Helmet } from 'react-helmet';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -20,7 +21,15 @@ function ResumeNew() {
 
   return (
     <div>
+        <Helmet>
+          <title>Alkis Koudounas | My resume</title>
+          <meta name="description" content="This page contains my resume, with my education, my work experience, a little bit about me, the course I teach, my skills and my previous experiences." />
+          <meta name="keywords" content="Alkis Koudounas,PhD,Politecnico,Torino,Projects,Audio,Emotion Recognition,Space,ToF,The Sound of AI" />
+          <meta name="robots" content="index, follow" />
+        </Helmet>
+
       <Container fluid className="resume-section">
+
         <Particle />
 
         <h1 className="project-heading">
@@ -28,12 +37,7 @@ function ResumeNew() {
         </h1>
         
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
+          <Button variant="primary" href={pdf} target="_blank" style={{ maxWidth: "250px" }}>
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
@@ -46,12 +50,7 @@ function ResumeNew() {
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
+          <Button variant="primary" href={pdf} target="_blank" style={{ maxWidth: "250px" }}>
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
