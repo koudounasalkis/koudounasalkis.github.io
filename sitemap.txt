@@ -1,5 +1,5 @@
 https://koudounasalkis.github.io/
-https://koudounasalkis.github.io/about
-https://koudounasalkis.github.io/projects
-https://koudounasalkis.github.io/resume
-https://koudounasalkis.github.io/teaching
+https://koudounasalkis.github.io/?/about
+https://koudounasalkis.github.io/?/projects
+https://koudounasalkis.github.io/?/resume
+https://koudounasalkis.github.io/?/teaching
