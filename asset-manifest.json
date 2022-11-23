@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.e8ec3bc4.css",
-    "main.js": "/static/js/main.412476ff.js",
+    "main.js": "/static/js/main.1b345963.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/home-main.png": "/static/media/home-main.b5ecaa464f61df02f6d4.png",
     "static/media/datascience_and_database_technology.png": "/static/media/datascience_and_database_technology.82aeac0fc927c0588e4e.png",
     "static/media/datascience_lab.png": "/static/media/datascience_lab.e0fcc562ecef5ace968a.png",
     "static/media/diabetic.png": "/static/media/diabetic.4d1cbfd05e7397f1501c.png",
-    "static/media/CV_new.pdf": "/static/media/CV_new.ce6aba72593a46fdb9f0.pdf",
+    "static/media/Alkis_Koudounas_CV.pdf": "/static/media/Alkis_Koudounas_CV.b3c58e794b52e08f8869.pdf",
     "static/media/tof.png": "/static/media/tof.a36c10f88b2456ba2f84.png",
     "static/media/ρBerTO.png": "/static/media/ρBerTO.3115cb182d74bf26ae05.png",
     "static/media/mosquitoes.png": "/static/media/mosquitoes.2c29cc35e02ef953d265.png",
@@ -20,11 +20,11 @@
     "index.html": "/index.html",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.e8ec3bc4.css.map": "/static/css/main.e8ec3bc4.css.map",
-    "main.412476ff.js.map": "/static/js/main.412476ff.js.map",
+    "main.1b345963.js.map": "/static/js/main.1b345963.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8ec3bc4.css",
-    "static/js/main.412476ff.js"
+    "static/js/main.1b345963.js"
   ]
 }
