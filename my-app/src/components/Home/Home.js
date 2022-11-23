@@ -14,7 +14,7 @@ function Home() {
     <section>
 
         <Helmet>
-          <title>Alkis Koudounas | Homepage</title>
+          <title>Alkis Koudounas</title>
           <meta name="description" content="I am Alkis Koudounas, PhD Student @ Politecnico di Torino, TA in Data Science. My research focuses on Speech & Audio Processing, NLP and XAI." />
           <meta name="keywords" content="Alkis Koudounas,Alkis,Koudounas,PhD,Politecnico,Torino,AI,Data Science,Deep Learning,Speech Processing,Audio,NLP" />
           <meta name="robots" content="index, follow" />
