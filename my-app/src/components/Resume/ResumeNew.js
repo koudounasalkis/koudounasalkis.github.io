@@ -10,10 +10,10 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/koudounasalkis/koudounasalkis.github.io/ccc5865d3d418013effdf57d0e5ff25d9fec2673/my-app/src/Assets/CV_new.pdf";
+  "https://raw.githubusercontent.com/koudounasalkis/koudounasalkis.github.io/a70f1030daf763c635e66dad4cde0f96a334145e/my-app/src/Assets/Alkis_Koudounas_CV.pdf";
 
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
+  const [width, setWidth] = useState(100);
 
   useEffect(() => {
     setWidth(window.innerWidth);
