@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e8ec3bc4.css",
-    "main.js": "/static/js/main.8295530a.js",
+    "main.js": "/static/js/main.3224943e.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/home-main.png": "/static/media/home-main.b5ecaa464f61df02f6d4.png",
     "static/media/datascience_and_database_technology.png": "/static/media/datascience_and_database_technology.82aeac0fc927c0588e4e.png",
@@ -20,11 +20,11 @@
     "index.html": "/index.html",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.e8ec3bc4.css.map": "/static/css/main.e8ec3bc4.css.map",
-    "main.8295530a.js.map": "/static/js/main.8295530a.js.map",
+    "main.3224943e.js.map": "/static/js/main.3224943e.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8ec3bc4.css",
-    "static/js/main.8295530a.js"
+    "static/js/main.3224943e.js"
   ]
 }
