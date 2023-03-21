@@ -10,7 +10,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/koudounasalkis/koudounasalkis.github.io/a70f1030daf763c635e66dad4cde0f96a334145e/my-app/src/Assets/Alkis_Koudounas_CV.pdf";
+  "https://raw.githubusercontent.com/koudounasalkis/koudounasalkis.github.io/f49a7579f13f5ae8ee0b7e6ecee0fce55523605b/static/media/Alkis_Koudounas_CV.03fcd843053db3909486.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(100);
@@ -24,7 +24,7 @@ function ResumeNew() {
         <Helmet>
           <title>Alkis Koudounas | My resume</title>
           <meta name="description" content="This page contains my resume, with my education, my work experience, a little bit about me, the course I teach, my skills and my previous experiences." />
-          <meta name="keywords" content="Alkis Koudounas,PhD,Politecnico,Torino,Projects,Audio,Emotion Recognition,Space,ToF,The Sound of AI" />
+          <meta name="keywords" content="Alkis Koudounas,PhD,Politecnico,Torino,Projects,Audio,Speech Processing,Emotion Recognition,Space,ToF,The Sound of AI" />
           <meta name="robots" content="index, follow" />
         </Helmet>
 
