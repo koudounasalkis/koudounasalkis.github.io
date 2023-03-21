@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e8ec3bc4.css",
-    "main.js": "/static/js/main.3224943e.js",
+    "main.js": "/static/js/main.868fbd59.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/home-main.png": "/static/media/home-main.b5ecaa464f61df02f6d4.png",
     "static/media/datascience_and_database_technology.png": "/static/media/datascience_and_database_technology.82aeac0fc927c0588e4e.png",
@@ -16,15 +16,17 @@
     "static/media/logo.png": "/static/media/logo.e9272a7a665ac58f3b9d.png",
     "static/media/calm.png": "/static/media/calm.d98f6ccf96f3acd20db7.png",
     "static/media/profile1.png": "/static/media/profile1.a96ec7f530cc30ee50fe.png",
+    "static/media/icassp1.png": "/static/media/icassp1.cd564f288dfe69f9ef08.png",
+    "static/media/pace.png": "/static/media/pace.2f512e783a8a25bbec75.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "index.html": "/index.html",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.e8ec3bc4.css.map": "/static/css/main.e8ec3bc4.css.map",
-    "main.3224943e.js.map": "/static/js/main.3224943e.js.map",
+    "main.868fbd59.js.map": "/static/js/main.868fbd59.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8ec3bc4.css",
-    "static/js/main.3224943e.js"
+    "static/js/main.868fbd59.js"
   ]
 }
