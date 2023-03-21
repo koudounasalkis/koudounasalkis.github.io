@@ -17,7 +17,8 @@ You can also find my hobbies, my technical skills, my latest projects, and the c
   <img src="aboutme.png" />
 </p>
 
-You can finally look at my [Resume](https://raw.githubusercontent.com/koudounasalkis/koudounasalkis.github.io/a70f1030daf763c635e66dad4cde0f96a334145e/my-app/src/Assets/Alkis_Koudounas_CV.pdf).
+You can finally look at my [Resume](https://raw.githubusercontent.com/koudounasalkis/koudounasalkis.github.io/f49a7579f13f5ae8ee0b7e6ecee0fce55523605b/static/media/Alkis_Koudounas_CV.03fcd843053db3909486.pdf).
+
 
 Thanks [Soumyajit](https://github.com/soumyajit4419) for the amazing template!
 
