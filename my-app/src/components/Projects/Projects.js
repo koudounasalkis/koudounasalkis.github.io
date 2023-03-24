@@ -51,7 +51,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard imgPath={pace} isBlog={false} 
               title="PACE: Podcast AI for Chapters and Episodes"
-              description="How many times have you been listening to a podcast and you wanted to go back to a specific part, but you don't remember the exact time? We have all been there. Now we got you covered!
+              description="How many times have you been listening to a podcast and you wanted to go back to a specific part, but you don't remember the exact time?
               We present PACE, Podcast AI for Chapters and Episodes, which allows you to search for podcasts at your own pace.
               PACE is a semantic search engine that helps you find the information you need, in a fast and easy way."
               ghLink="https://github.com/ALM-LAB/PACE"/>
@@ -77,7 +77,7 @@ function Projects() {
             <ProjectCard imgPath={mosquitoes} isBlog={false} 
               title="How Much Attention Should We Pay to Mosquitoes?"
               description="Mosquitoes are a major global health problem, thus monitoring is helpful in preventing the outbreak of many diseases. In this paper, we propose a novel data-driven approach 
-              that leverages Transformer-based models to identify mosquitoes in audio recordings."
+              that leverages Transformer-based models to identify mosquitoes in audios."
               ghLink="https://github.com/koudounasalkis/How-Much-Attention-Should-We-Pay-to-Mosquitoes"
               demoLink="https://dl.acm.org/doi/pdf/10.1145/3503161.3551594"/>
           </Col>
@@ -95,7 +95,7 @@ function Projects() {
             <ProjectCard imgPath={tof} isBlog={false}
               title="ToF Cameras in Space"
               description="Research focused on the development of a NN-based approach for Object Detection and 6 DoF Pose Estimation with ToF Cameras for space applications. 
-              The aim is that of designing a NN-based approach able to detect a part of a satellite (such as a gripping interface) and estimate its 6 DoF pose to support on-orbit servicing missions."
+              We design a NN-based approach able to detect a part of a satellite (such as a gripping interface) and estimate its 6 DoF pose to support on-orbit servicing missions."
               ghLink="https://github.com/koudounasalkis/Time-of-Flight-Cameras-in-Space"
               demoLink="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10013574"/>
           </Col>
