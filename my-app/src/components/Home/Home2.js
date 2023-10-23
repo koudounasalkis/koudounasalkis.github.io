@@ -25,7 +25,7 @@ function Home2() {
               I am a 
               <i>
                 <b className="purple"> half Greek-half Italian </b>
-                <a href="https://www.dauin.polito.it/it/personale/scheda/(nominativo)/alkis.koudounas" className="purple">Ph.D. student</a> 
+                <a href="https://www.dauin.polito.it/it/personale/scheda/(nominativo)/alkis.koudounas" className="purple" strong>Ph.D. student</a> 
               </i>
               , deeply astonished by the mystic 
               <i>
