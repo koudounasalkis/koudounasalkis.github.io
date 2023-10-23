@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.d46cb92a.css",
-    "main.js": "/static/js/main.40a21761.js",
+    "main.js": "/static/js/main.34c810f4.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/home-main.png": "/static/media/home-main.b5ecaa464f61df02f6d4.png",
     "static/media/datascience_and_database_technology.png": "/static/media/datascience_and_database_technology.82aeac0fc927c0588e4e.png",
     "static/media/datascience_lab.png": "/static/media/datascience_lab.e0fcc562ecef5ace968a.png",
-    "static/media/diabetic.png": "/static/media/diabetic.4d1cbfd05e7397f1501c.png",
     "static/media/Alkis_Koudounas_CV.pdf": "/static/media/Alkis_Koudounas_CV.03fcd843053db3909486.pdf",
     "static/media/tof.png": "/static/media/tof.a36c10f88b2456ba2f84.png",
     "static/media/ρBerTO.png": "/static/media/ρBerTO.3115cb182d74bf26ae05.png",
@@ -14,6 +13,7 @@
     "static/media/about1.png": "/static/media/about1.7ceb9490108fa84e2850.png",
     "static/media/vocalisation.png": "/static/media/vocalisation.62c93c2247365117b55c.png",
     "static/media/logo.png": "/static/media/logo.e9272a7a665ac58f3b9d.png",
+    "static/media/map.png": "/static/media/map.8b72910ea5e49d6047bd.png",
     "static/media/calm.png": "/static/media/calm.d98f6ccf96f3acd20db7.png",
     "static/media/profile1.png": "/static/media/profile1.a96ec7f530cc30ee50fe.png",
     "static/media/icassp1.png": "/static/media/icassp1.cd564f288dfe69f9ef08.png",
@@ -22,11 +22,11 @@
     "index.html": "/index.html",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.d46cb92a.css.map": "/static/css/main.d46cb92a.css.map",
-    "main.40a21761.js.map": "/static/js/main.40a21761.js.map",
+    "main.34c810f4.js.map": "/static/js/main.34c810f4.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d46cb92a.css",
-    "static/js/main.40a21761.js"
+    "static/js/main.34c810f4.js"
   ]
 }
