@@ -25,7 +25,7 @@ function Home2() {
               I am a 
               <i>
                 <b className="purple"> half Greek-half Italian </b>
-                <a href="https://www.dauin.polito.it/it/personale/scheda/(nominativo)/alkis.koudounas">Ph.D. student</a> 
+                <a href="https://www.dauin.polito.it/it/personale/scheda/(nominativo)/alkis.koudounas" className="purple">Ph.D. student</a> 
               </i>
               , deeply astonished by the mystic 
               <i>
@@ -34,7 +34,7 @@ function Home2() {
               we are living. 
               My current research topics are in the field of 
               <i>
-                <b className="purple"> NLP and Audio Processing. </b>
+                <b className="purple"> Spoken Language Understanding, Music Processing, Audio-Text Multi-modal Understanding, XAI. </b>
               </i>
           
               <br />

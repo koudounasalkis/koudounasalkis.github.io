@@ -7,10 +7,11 @@ function Type() {
       options={{
         strings: [
           "Ph.D. Student @ PoliTO",
-          "AI Division @ RoboTO",
+          "Teaching Assistant @ PoliTO",
+          "Italian Language Ambassador @ AYA C4AI Community Project",
+          "Supervisor @ MALTO (MAchine Learning at PoliTO)",
           "Space Enthusiast",
-          "IT and Web Support @ IEDC",
-          "Scout Leader @ AN2",
+          "IT and Web Support @ IEDC"
         ],
         autoStart: true,
         loop: true,
