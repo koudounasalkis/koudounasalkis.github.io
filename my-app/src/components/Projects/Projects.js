@@ -6,7 +6,7 @@ import calm from "../../Assets/Projects/calm.png";
 // import diabetic from "../../Assets/Projects/diabetic.png";
 import emotionrecognition from "../../Assets/Projects/vocalisation.png";
 import ρBerTO from "../../Assets/Projects/ρBerTO.png";
-import tof from "../../Assets/Projects/tof.png";
+import exoplain from "../../Assets/Projects/exoplain.png";
 import mosquitoes from "../../Assets/Projects/mosquitoes.png";
 import icassp1 from "../../Assets/Projects/icassp1.png";
 import pace from "../../Assets/Projects/pace.png";
@@ -55,12 +55,12 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard imgPath={tof} isBlog={false}
-              title="Time-of-Flight Cameras in Space: Pose Estimation with Deep Learning Methodologies"
+            <ProjectCard imgPath={exoplain} isBlog={false}
+              title="Bad Exoplanet! Explaining Degraded Performance when Reconstructing Exoplanets Atmospheric Parameters"
               description="Alkis Koudounas, Flavio Giobergia, Elena Baralis"
-              conference="IEEE AICT 2022"
-              ghLink="https://github.com/koudounasalkis/Time-of-Flight-Cameras-in-Space"
-              demoLink="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10013574"/>
+              conference="NeurIPS 2023 AI for Science Workshop"
+              ghLink="https://github.com/koudounasalkis/Ex-o-plain"
+              demoLink="https://openreview.net/forum?id=9Z4XZOhwiz"/>
           </Col>
 
         </Row>
