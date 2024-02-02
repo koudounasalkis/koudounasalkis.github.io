@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import calm from "../../Assets/Projects/calm.png";
-// import diabetic from "../../Assets/Projects/diabetic.png";
 import emotionrecognition from "../../Assets/Projects/vocalisation.png";
 import ρBerTO from "../../Assets/Projects/ρBerTO.png";
 import exoplain from "../../Assets/Projects/exoplain.png";
@@ -11,6 +10,10 @@ import mosquitoes from "../../Assets/Projects/mosquitoes.png";
 import icassp1 from "../../Assets/Projects/icassp1.png";
 import pace from "../../Assets/Projects/pace.png";
 import map from "../../Assets/Projects/map.png";
+import data_markets from "../../Assets/Projects/data_markets.jpg";
+import music_generation from "../../Assets/Projects/music_generation.jpeg";
+import xai_speech from "../../Assets/Projects/xai_speech.png";
+import sasb from "../../Assets/Projects/sasb.jpg";
 
 import { Helmet } from 'react-helmet';
 
@@ -35,7 +38,27 @@ function Projects() {
         </h1>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          
+
+          <Col md={4} className="project-card">
+            <ProjectCard imgPath={data_markets} isBlog={false} 
+              title="Prioritizing Data Acquisition For End-to-End Speech Model Improvement"
+              description='Alkis Koudounas, Eliana Pastor, Giuseppe Attanasio, Luca de Alfaro, Elena Baralis'
+              conference="IEEE ICASSP 2024"
+              ghLink="https://github.com/koudounasalkis/Data-Acquisition-for-Speech-Model-Improvement"
+              // demoLink="https://www.isca-speech.org/archive/pdfs/interspeech_2023/koudounas23_interspeech.pdf"
+              />
+          </Col>
+        
+          <Col md={4} className="project-card">
+            <ProjectCard imgPath={music_generation} isBlog={false} 
+              title="Ainur: Harmonizing Speed and Quality in Deep Music Generation through Lyrics-Audio Embeddings"
+              description="Giuseppe Concialdi*, Alkis Koudounas*, Eliana Pastor, Barbara di Eugenio, Elena Baralis"
+              conference="IEEE ICASSP 2024"
+              ghLink="https://github.com/Ainur-Music/Ainur"
+              // demoLink="https://www.isca-speech.org/archive/pdfs/interspeech_2023/koudounas23_interspeech.pdf"
+              />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard imgPath={map} isBlog={false} 
               title="ITALIC: An Italian Intent Classification Dataset"
@@ -70,7 +93,26 @@ function Projects() {
         </h1>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          
+
+          <Col md={4} className="project-card">
+            <ProjectCard imgPath={xai_speech} isBlog={false} 
+              title="Explaining Speech Classification Models via Word-Level Audio Segments and Paralinguistic Features"
+              description="Eliana Pastor, Alkis Koudounas, Giuseppe Attanasio, Dirk Hovy, Elena Baralis"
+              conference="EACL 2024"
+              ghLink="https://github.com/elianap/SpeechXAI"
+              demoLink="https://arxiv.org/abs/2309.07733"/>
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard imgPath={sasb} isBlog={false} 
+              title="Benchmarking Representations for Speech, Music, and Acoustic Events"
+              description="Moreno La Quatra, Alkis Koudounas, Lorenzo Vaiani, Elena Baralis, Luca Cagliero, Paolo Garza, Sabato Marco Siniscalchi"
+              conference="SASB Workshop @ ICASSP 2024"
+              ghLink="https://github.com/MorenoLaQuatra/ARCH"
+              // demoLink="https://arxiv.org/abs/2309.07733"
+              />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard imgPath={mosquitoes} isBlog={false} 
               title="How Much Attention Should We Pay to Mosquitoes?"
@@ -83,8 +125,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard imgPath={emotionrecognition} isBlog={false}
               title="Transformer-Based Non-Verbal Emotion Recognition"
-              description="Lorenzo Vaiani, Alkis Koudounas, Moreno La Quatra, Luca Cagliero, Paolo Garza et al."
-              conference="Multimodal Sentiment Analysis Workshop, co-located with ACM Multimedia 2022"
+              description="Lorenzo Vaiani, Alkis Koudounas, Moreno La Quatra, Luca Cagliero, Paolo Garza, Elena Baralis"
+              conference="MuSe Workshop @ ACM Multimedia 2022"
               ghLink="https://github.com/koudounasalkis/Transformer-based-Non-Verbal-Emotion-Recognition"
               demoLink="https://dl.acm.org/doi/pdf/10.1145/3551876.3554801"/>
           </Col>
