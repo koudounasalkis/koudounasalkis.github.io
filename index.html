@@ -1,1 +1,735 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><link rel="manifest" href="manifest.json"/><link rel="canonical" href="https://koudounasalkis.github.io"/><meta itemprop="name" content="Alkis Koudounas"/><meta name="author" content="Alkis Koudounas"/><meta name="copyright" content="Alkis Koudounas"/><meta name="description" content="I am Alkis Koudounas, PhD Student @ Politecnico di Torino, TA in Data Science. My research focuses on Speech & Audio Processing, NLP and XAI."/><meta name="keywords" content="Alkis Koudounas,Alkis,Koudounas,PhD,Politecnico,Torino,AI,Data Science,Deep Learning,Speech Processing,Audio,NLP"/><meta name="google-site-verification" content="gb8QAHk3v7BuKXUcSb6AwHnoX27xtOL_UO7_9tIkPUw"/><meta itemprop="image" alt="Alkis Koudounas Portfolio | Homepage Google" content="https://raw.githubusercontent.com/koudounasalkis/koudounasalkis.github.io/gh-pages/homepage.png"/><meta property="og:title" content="Alkis Koudounas"/><meta property="og:type" content="website"/><meta property="og:url" content="https://koudounasalkis.github.io"/><meta property="og:description" content="I am Alkis Koudounas, PhD Student @ Politecnico di Torino, TA in Data Science. My research focuses on Speech & Audio Processing, NLP and XAI."/><meta property="og:image" alt="Alkis Koudounas Portfolio | Homepage Facebook" content="https://raw.githubusercontent.com/koudounasalkis/koudounasalkis.github.io/gh-pages/homepage.png"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Alkis Koudounas"/><meta name="twitter:site" content="@AlkisKoudounas"/><meta name="twitter:description" content="I am Alkis Koudounas, PhD Student @ Politecnico di Torino, TA in Data Science. My research focuses on Speech & Audio Processing, NLP and XAI."/><meta name="twitter:image" alt="Alkis Koudounas Portfolio | Homepage Twitter" content="https://raw.githubusercontent.com/koudounasalkis/koudounasalkis.github.io/gh-pages/homepage.png"/><script type="text/javascript">!function(i){if("/"===i.search[1]){let l=i.search;v1=i.origin,v2=l.split("?")[1],window.history.replaceState(null,null,v1+v2)}}(window.location)</script><script defer="defer" src="/static/js/main.e03bcf9b.js"></script><link href="/static/css/main.d46cb92a.css" rel="stylesheet"></head><body><noscript><title>Alkis Koudounas</title><h1>I am Alkis Koudounas, a PhD student at Politecnico di Torino.</h1><h2>My research focuses on Speech & Audio Processing, NLP and XAI.</h2><h3>Here you can find a little bit about me, my technical skills and my passions.</h3><h4>You can also see the projects I am working on,</h4><h5>and the courses I teach at Politecnico di Torino.</h5><h6>You can finally look at my resume, and how to contact me if you want to. Copyright Alkis Koudounas</h6></noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alkis Koudounas - ML Researcher</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-color: #fafafa;
+            --text-color: #2c3e50;
+            --text-light: #7f8c8d;
+            --text-medium: #34495e;
+            --accent-color: #3498db;
+            --accent-hover: #2980b9;
+            --border-color: #e8e8e8;
+            --card-bg: #ffffff;
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --text-light: #a0a0a0;
+            --text-medium: #c0c0c0;
+            --accent-color: #5dade2;
+            --accent-hover: #7ec8e3;
+            --border-color: #333333;
+            --card-bg: #242424;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: var(--bg-color);
+            font-size: 16px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 20px 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+            font-size: 0.95em;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-color);
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.3em;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            transition: transform 0.2s ease;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 30px;
+        }
+
+        header {
+            margin-bottom: 80px;
+            display: flex;
+            gap: 40px;
+            align-items: start;
+        }
+
+        .header-content {
+            flex: 1;
+        }
+
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+            border: 3px solid var(--border-color);
+            transition: border-color 0.3s ease;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            font-weight: 600;
+            margin-bottom: 20px;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+
+        .bio {
+            font-size: 1.1em;
+            line-height: 1.7;
+            margin-bottom: 30px;
+            color: var(--text-medium);
+        }
+
+        .links {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 25px;
+        }
+
+        .links a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+            position: relative;
+        }
+
+        .links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 1px;
+            bottom: -2px;
+            left: 0;
+            background-color: var(--accent-color);
+            transition: width 0.3s ease;
+        }
+
+        .links a:hover::after {
+            width: 100%;
+        }
+
+        .links a:hover {
+            color: var(--accent-hover);
+        }
+
+        section {
+            margin-bottom: 70px;
+            scroll-margin-top: 80px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            font-weight: 600;
+            margin-bottom: 35px;
+            letter-spacing: -0.01em;
+        }
+
+        .publication {
+            margin-bottom: 35px;
+            padding-bottom: 35px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .publication:last-child {
+            border-bottom: none;
+        }
+
+        .pub-title {
+            font-size: 1.15em;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text-color);
+        }
+
+        .pub-authors {
+            color: var(--text-light);
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+
+        .pub-venue {
+            color: var(--text-medium);
+            font-style: italic;
+            margin-bottom: 12px;
+            font-size: 0.95em;
+        }
+
+        .pub-links {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .pub-links a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-size: 0.9em;
+            padding: 4px 12px;
+            border: 1px solid var(--accent-color);
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+
+        .pub-links a:hover {
+            background: var(--accent-color);
+            color: white;
+        }
+
+        .project-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 25px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 15px;
+        }
+
+        .project-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 5px;
+        }
+
+        .project-stats {
+            display: flex;
+            gap: 15px;
+            font-size: 0.9em;
+            color: var(--text-light);
+        }
+
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .project-description {
+            color: var(--text-medium);
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 12px;
+        }
+
+        .project-links a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: color 0.2s ease;
+        }
+
+        .project-links a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+        }
+
+        .experience-item {
+            margin-bottom: 30px;
+        }
+
+        .exp-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: var(--text-color);
+        }
+
+        .exp-org {
+            color: var(--accent-color);
+            margin-bottom: 5px;
+        }
+
+        .exp-date {
+            color: var(--text-light);
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .exp-description {
+            color: var(--text-medium);
+            line-height: 1.6;
+        }
+
+        .other-item {
+            margin-bottom: 25px;
+        }
+
+        .other-title {
+            font-size: 1.05em;
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 5px;
+        }
+
+        .other-subtitle {
+            color: var(--text-light);
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+
+        .other-description {
+            color: var(--text-medium);
+            line-height: 1.6;
+        }
+
+        footer {
+            margin-top: 100px;
+            padding-top: 30px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--text-light);
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 15px;
+                font-size: 0.9em;
+            }
+
+            .container {
+                padding: 40px 20px;
+            }
+
+            header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .profile-photo {
+                width: 150px;
+                height: 150px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .links {
+                justify-content: center;
+            }
+
+            .project-header {
+                flex-direction: column;
+            }
+
+            .project-stats {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#publications">Publications</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#other">Other</a>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                <span id="theme-icon">🌙</span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <img src="media/profile.png" alt="Alkis Koudounas" class="profile-photo">
+            <div class="header-content">
+                <h1>Alkis Koudounas</h1>
+                <div class="subtitle">PhD Candidate & ML Researcher | Turin, IT</div>
+                <p class="bio">
+                    I am a half Greek-half Italian PhD candidate at Politecnico di Torino, Italy, specializing in speech processing and responsible AI. 
+                    My current research focuses on aligning speech language models with human feedback.
+                    I love exploring problems and envisioning unseen solutions.
+                </p>
+                <div class="links">
+                    <a href="mailto:alkis.koudounas@polito.it">Email</a>
+                    <a href="https://scholar.google.com/citations?user=4-jqTdYAAAAJ" target="_blank">Google Scholar</a>
+                    <a href="https://github.com/koudounasalkis" target="_blank">GitHub</a>
+                    <a href="https://x.com/AlkisKoudounas" target="_blank">Twitter</a>
+                    <a href="https://www.linkedin.com/in/alkis-koudounas" target="_blank">LinkedIn</a>
+                    <a href="/Koudounas_Alkis_CV.pdf" target="_blank">CV</a>
+                </div>
+            </div>
+        </header>
+
+        <section id="publications">
+            <h2>Selected Publications</h2>
+            
+            <div class="publication">
+                <div class="pub-title">voc2vec: A Foundation Model for Non-Verbal Vocalization</div>
+                <div class="pub-authors">Alkis Koudounas, Moreno La Quatra, et al.</div>
+                <div class="pub-venue">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2025</div>
+                <div class="pub-links">
+                    <a href="https://ieeexplore.ieee.org/abstract/document/10890672">Paper</a>
+                    <a href="https://github.com/koudounasalkis/voc2vec">Code</a>
+                    <a href="https://huggingface.co/collections/alkiskoudounas/voc2vec">Models</a>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-title">A Contrastive Learning Approach to Mitigate Bias in Speech Models</div>
+                <div class="pub-authors">Alkis Koudounas, Flavio Giobergia, et al.</div>
+                <div class="pub-venue">Interspeech (Best Student Paper Award), 2024</div>
+                <div class="pub-links">
+                    <a href="https://www.isca-archive.org/interspeech_2024/koudounas24b_interspeech.pdf">Paper</a>
+                    <a href="https://github.com/koudounasalkis/CLUES">Code</a>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-title">Benchmarking Representations for Speech, Music, and Acoustic Events</div>
+                <div class="pub-authors">Moreno La Quatra, Alkis Koudounas, et al.</div>
+                <div class="pub-venue">IEEE International Conference on Acoustics, Speech and Signal Processing Workshops (ICASSPW), 2024</div>
+                <div class="pub-links">
+                    <a href="https://ieeexplore.ieee.org/abstract/document/10625960">Paper</a>
+                    <a href="https://github.com/MorenoLaQuatra/ARCH">Code</a>
+                    <a href="https://huggingface.co/collections/alkiskoudounas/arch-audioset-pre-training">Models</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Open-Source Projects</h2>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <div class="project-title">voc2vec suite</div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span>📥</span>
+                                <span>6,594 downloads</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-description">
+                    voc2vec is the first universal representation model designed for non-verbal human vocalization tasks.
+                </div>
+                <div class="project-links">
+                    <a href="https://huggingface.co/collections/alkiskoudounas/voc2vec" target="_blank">HuggingFace →</a>
+                    <a href="https://github.com/koudounasalkis/voc2vec">GitHub →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <div class="project-title">AudioSet-pretrained suite</div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span>📥</span>
+                                <span>19,589 downloads</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-description">
+                    SSL models (HuBERT, wav2vec 2.0) pre-trained on AudioSet for general-purpose audio representation learning.
+                </div>
+                <div class="project-links">
+                    <a href="https://huggingface.co/collections/alkiskoudounas/arch-audioset-pre-training" target="_blank">HuggingFace →</a>
+                    <a href="https://github.com/MorenoLaQuatra/ARCH">GitHub →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <div class="project-title">DeepDialogue</div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span>📥</span>
+                                <span>38,464 downloads</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-description">
+                    DeepDialogue-orpheus is a large-scale multimodal dataset containing 40,150 high-quality multi-turn dialogues spanning 41 domains and incorporating 20 distinct emotions with coherent emotional progressions.
+                </div>
+                <div class="project-links">
+                    <a href="https://huggingface.co/datasets/SALT-Research/DeepDialogue-xtts" target="_blank">HuggingFace (XTTS-v2 variant) →</a>
+                    <a href="https://huggingface.co/datasets/SALT-Research/DeepDialogue-orpheus" target="_blank">HuggingFace (Orpheus variant) →</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            
+            <div class="experience-item">
+                <div class="exp-title">Applied Research Intern</div>
+                <div class="exp-org">Amazon AGI - Speech & Audio Foundation, Sunnyvale, CA</div>
+                <div class="exp-date">Aug - Nov 2025</div>
+                <div class="exp-description">
+                    Worked on reward modeling for speech language models. The model is currently in production.
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-title">Applied Research Intern</div>
+                <div class="exp-org">Amazon AGI - Speech Understanding, Aachen, DE</div>
+                <div class="exp-date">Jun - Dec 2024</div>
+                <div class="exp-description">
+                    Worked on reward and confidence modeling for automatic speech recognition and speech translation systems.
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-title">Research Intern</div>
+                <div class="exp-org">Thales Alenia Space, Turin, IT</div>
+                <div class="exp-date">May - Nov 2021</div>
+                <div class="exp-description">
+                    Worked on object detection and 6DoF pose estimation with ToF cameras.
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-title">Research Intern</div>
+                <div class="exp-org">Tokyo University Agriculture and Technology, Tokyo, JP</div>
+                <div class="exp-date">Mar - May 2019</div>
+                <div class="exp-description">
+                    Worked on gradient-based learning methods extended to manifolds.
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            
+            <div class="experience-item">
+                <div class="exp-title">PhD in Computer Engineering</div>
+                <div class="exp-org">Politecnico di Torino, Turin, IT</div>
+                <div class="exp-date">2022 - Present</div>
+                <div class="exp-description">
+                    Thesis: Toward Robust, Responsible and Trustworthy Speech Foundation Models
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-title">MSc in Computer Engineering</div>
+                <div class="exp-org">Politecnico di Torino, Turin, IT</div>
+                <div class="exp-date">2019 - 2021</div>
+                <div class="exp-description">
+                    Thesis: Object detection and 6DoF pose estimation with ToF cameras
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-title">BSc in Computer Engineering</div>
+                <div class="exp-org">Università Politecnica delle Marche, Ancona, IT</div>
+                <div class="exp-date">2016 - 2019</div>
+                <div class="exp-description">
+                    Thesis: Gradient-based learning methods extended to manifolds
+                </div>
+            </div>
+        </section>
+
+        <section id="other">
+            <h2>Other</h2>
+            
+            <h3 class="exp-org" style="font-size: 1.3em; margin-bottom: 20px; font-weight: 600;">Teaching</h3>
+            
+            <div class="other-item">
+                <div class="other-title">Teaching Assistant</div>
+                <div class="other-subtitle">Politecnico di Torino, 2023 - Present</div>
+                <div class="other-description">
+                    Assisted in teaching graduate courses on data science and machine learning fundamentals. 
+                    Conducted lab sessions and graded assignments.
+                </div>
+            </div>
+
+            <div class="other-item">
+                <div class="other-title">Guest Lecturer - Deep Learning for Speech Processing</div>
+                <div class="other-subtitle">Politecnico di Torino, 2023 - Present</div>
+                <div class="other-description">
+                    Delivered lectures on transformer architectures and their applications in speech, audio and music processing and generation.
+                </div>
+            </div>
+
+            <h3 class="exp-org" style="font-size: 1.3em; margin: 40px 0 20px 0; font-weight: 600;">Awards & Honors</h3>
+
+            <div class="other-item">
+                <div class="other-title">Outstanding PhD Award</div>
+                <div class="other-subtitle">Politecnico di Torino, 2025</div>
+            </div>
+
+            <div class="other-item">
+                <div class="other-title">Best Student Paper Award</div>
+                <div class="other-subtitle">Interspeech, 2024</div>
+            </div>
+
+            <div class="other-item">
+                <div class="other-title">Travel Grant Recipient</div>
+                <div class="other-subtitle">Interspeech, ICASSP, KDD 2024</div>
+            </div>
+
+
+            <h3 class="exp-org" style="font-size: 1.3em; margin: 40px 0 20px 0; font-weight: 600;">Service</h3>          
+
+            <div class="other-item">
+                <div class="other-title">Organizer</div>
+                <div class="other-subtitle">SPADE Workshop at ICASSP, 2024</div>
+            </div>
+
+            <div class="other-item">
+                <div class="other-title">Online Chair & Head of Volunteers</div>
+                <div class="other-subtitle">ECML-PKDD, 2023</div>
+            </div>
+
+            <div class="other-item">
+                <div class="other-title">Reviewer</div>
+                <div class="other-description">
+                    Interspeech, ICASSP, SLT/ASRU, KDD
+                </div>
+            </div>
+
+            <h3 class="exp-org" style="font-size: 1.3em; margin: 40px 0 20px 0; font-weight: 600;">Volunteering & Extracurriculars</h3>
+
+            <div class="other-item">
+                <div class="other-title">Tutor & Supervisor</div>
+                <div class="other-subtitle">MALTO student team, 2023 - Present</div>
+            </div>
+
+            <div class="other-item">
+                <div class="other-title">AYA Italian Language Ambassador</div>
+                <div class="other-subtitle">Cohere for AI, 2024</div>
+            </div>
+
+            
+        </section>
+
+        <footer>
+            <p>Last updated: November 2025</p>
+        </footer>
+    </div>
+
+    <script>
+        function toggleTheme() {
+            const html = document.documentElement;
+            const themeIcon = document.getElementById('theme-icon');
+            const currentTheme = html.getAttribute('data-theme');
+            
+            if (currentTheme === 'dark') {
+                html.removeAttribute('data-theme');
+                themeIcon.textContent = '🌙';
+                localStorage.setItem('theme', 'light');
+            } else {
+                html.setAttribute('data-theme', 'dark');
+                themeIcon.textContent = '☀️';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            document.getElementById('theme-icon').textContent = '☀️';
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
